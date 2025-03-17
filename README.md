@@ -37,6 +37,8 @@ O script copia o arquivo `.zshrc` da pasta home do usuário para a pasta `mybkp`
 - Se não estiver em ativo execute o seguinte comando:
   ```sh
   sudo service cron start
+  ou
+  sudo /etc/init.d/cron start
 
 7. Para verificar quais os jobs estão programados no crontab execute o seguinte comando:
    ```sh
