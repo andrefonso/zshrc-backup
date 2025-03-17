@@ -46,6 +46,3 @@ O script copia o arquivo `.zshrc` da pasta home do usuário para a pasta `mybkp`
 8. Para remover todos os jobs do crontab execute o seguinte comando:
    ```sh
    crontab -r
-
-
-
