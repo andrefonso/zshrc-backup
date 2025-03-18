@@ -23,9 +23,9 @@ O script copia o arquivo `.zshrc` da pasta home do usuário para a pasta `mybkp`
 5. Configure a execução automática adicionando a seguinte linha ao crontab:
    ```sh
    crontab -e
-- E insira a linha abaixo para executar o script diariamente às 9h:
+- E insira a linha abaixo para executar o script diariamente de 15 em 15 minutos:
   ```sh
-  0 9 * * * /home/andre/zshbkp.sh
+  */15 * * * * /home/andre/myscripts/zshbkp.sh
 
 - Salve e feche o arquivo do crontab
   
